@@ -1,0 +1,16 @@
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+venv/
+.ipynb_checkpoints/
+.idea/
+.vscode/
+*.swp
+*~
+data/*
+checkpoints/
+plots/
+.DS_Store
+Thumbs.db

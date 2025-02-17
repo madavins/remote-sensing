@@ -1,0 +1,40 @@
+train_images_dir: "..."
+train_labels_dir: "..."
+val_images_dir: "..."
+val_labels_dir: "..."
+checkpoint_dir: "..."
+training_plot: "..."
+evaluation_plot: "..."
+checkpoint_dir: ""..."
+model_checkpoint: "..."
+model_name: "..." 
+model_checkpoint: "..."
+
+learning_rate: 0.0005
+weight_decay: 0.0001
+batch_size: 8
+epochs: 150
+class_weights: [  
+    29.793214, 15.26759907, 6.01552005, 12.33477792, 4.49127644,
+    5.24112275, 7.31527147, 12.66678842, 7.68805826, 29.15104065,
+    42.50016961, 20.17288139, 47.35312919, 31.9629094
+]
+classes: [
+        "Clouds", "Artificial surfaces and constructions", "Cultivated areas",
+        "Vineyards", "Broadleaf tree cover", "Coniferous tree cover",
+        "Herbaceous vegetation", "Moors and Heathland", "Sclerophyllous vegetation",
+        "Marshes", "Peatbogs", "Natural material surfaces",
+        "Permanent snow covered surfaces", "Water bodies"
+    ]
+use_augmentation: False # Set to True to enable Albumentations later
+
+deeplabv3plus:
+  encoder_name: "resnet101"
+  encoder_depth: 5
+  encoder_weights: "imagenet"
+  in_channels: 4  
+  classes: 14      
+
+unet:
+  in_channels: 4    
+  out_channels: 14  
