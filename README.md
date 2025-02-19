@@ -1,6 +1,6 @@
 # Deep learning for semantic segmentation of remote sensing imagery
 
-This repository contains the code of my Bachelor's thesis: **Deep Learning for Semantic Segmentation of Remote Sensing Imagery**. The code provides an implementation for training and evaluating semantic segmentation models on the Corine Land Cover dataset. It currently supports DeepLabV3+ and U-Net segmentation architectures.
+This repository contains the code of my Bachelor's thesis: **[Deep learning for semantic segmentation of remote sensing imagery](https://upcommons.upc.edu/handle/2117/357131)**. The code provides an implementation for training and evaluating semantic segmentation models on the Corine Land Cover dataset. It currently supports DeepLabV3+ and U-Net segmentation architectures.
 
 ### Usage
 
